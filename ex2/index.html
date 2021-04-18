@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+        זה הוא טופס ללא שם
+    </h1>
+    <br>
+    <form action="#" method="GET">
+        <label for="fullname">שם מלא</label>
+        <br>
+        <input type="text" name="fullname" id="fullname">
+        <br><br>
+        <label for="email">מייל</label>
+        <br>
+        <input type="email" name="email" id="email">
+        <br><br>
+        <label for="il_id">ת.ז.</label>
+        <br>
+        <input type="text" name="il_id" id="il_id" minlength="9">
+        <br><br>
+        <p>
+            <label>מין</label>
+            <br>
+            <label>
+                <input type="radio" name="gender" id="gender" value="male">
+                זכר
+            </label>
+            <label>
+                <input type="radio" name="gender" id="gender" value="female">
+                נקבה
+            </label>
+            <label>
+                <input type="radio" name="gender" id="gender" value="wtf'">
+                לא ידוע
+            </label>
+        </p>
+        <br>
+        <label for="msg">הודעה</label>
+        <br>
+        <input type="text" name="msg" id="msg">
+        <br>
+        <p>
+            <button type="submit">שלח</button>
+            <button type="reset">איפוס</button>
+        </p>
+    </form>
+</body>
+</html>

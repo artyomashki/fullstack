@@ -1,0 +1,43 @@
+body {
+    direction: rtl;
+}
+
+h1 {
+    color:blueviolet;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 3em;
+}
+
+label {
+    color: brown;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+button {
+    background-color: black;
+    color:snow;
+    font-size: 1.3em;
+    height: 40px;
+}
+
+input {
+    border-radius: 15px;
+    border: solid;
+    border-width: 2px;
+    border-color:tomato;
+    
+}
+
+form {
+    border-width: 0px;
+    background-color: aqua;
+    width: 250px;
+    border-radius: 30px;
+    padding: 1%;
+}
+
+input:focus {
+    background-color:beige;
+    border: 3px solid #555;
+  }
