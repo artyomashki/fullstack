@@ -1,0 +1,169 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    width: 100%;
+    background-color: aqua;
+    height: 5vh;
+}
+
+.nav{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size: 1.5em;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
+#about {
+    padding: 3%;
+    margin: 0 auto;
+    background-color: darkcyan;
+    color: rgb(137, 225, 255);
+}
+.row {
+    display: flex;
+}
+
+.col1 .col2{
+    flex: 50%;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin: 0;
+}
+.col1 h2 {
+    font-size: 1em;
+    margin: 0 0 25px 0;
+}
+
+#platforms {
+    list-style:none;
+    padding:0;
+    text-align:left;
+    font-size: 1.2em;
+    display: inline-block;
+    margin:0 0 25px 0;
+
+}
+
+#platforms li {
+    display: inline;
+    padding: 5px;
+    background-color: burlywood;
+    color: darkblue;
+}
+
+p {
+    text-align: justify;
+}
+
+.txt-icon {
+    padding: 5px;
+}
+
+.txt-icon p{
+    display: inline;
+    
+}
+
+.txt-icon img{
+    display: inline;
+    margin-right: 5px;
+    width: 25px !important;
+    vertical-align: middle;
+}
+
+#art {
+    width: 250px;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.col1 {
+    padding: 15px;
+}
+
+.col1 img {
+    width: 350px;
+}
+
+#projects {
+    background-color: deepskyblue;
+}
+
+footer {
+    background-color: rgb(196, 196, 196);
+    padding: 0px;
+}
+
+.form-details input {
+    display: inline-block;
+    padding: 5px;
+    margin: 15px auto;
+    width: 180px;
+}
+.form-details label {
+    display: inline-block;
+    padding: 5px;
+    margin: 15px auto;
+    width: 80px;
+
+    
+}
+
+#form-msg {
+    padding: 5px;
+    margin: 15px auto;
+    display: block;
+}
+
+button {
+    padding: 10px;
+    margin: 15px auto;
+    display: block;
+    background-color: gold;
+    color: black;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.rights {
+    display: block;
+    padding: 10px;
+    background-color: black;
+    color: gold;
+    margin: 0 auto;
+}
+
+.rights p {
+    text-align: center;
+
+}
+
+form {
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-details {
+    border-width: 0;
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 590px;
+}
+
+.center {
+    margin: 0 auto;
+    display: inline-block;
+}
